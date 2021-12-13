@@ -1,0 +1,21 @@
+#define IDM_Task_1 101
+#define IDM_Task_2 102
+#define IDM_Solve_1 103
+#define IDM_Solve_2 104
+#define IDM_HELP 111
+#define IDM_EXIT 112
+MyMenu MENU
+{
+POPUP "&Задания"
+{
+MENUITEM "&Задание для лабораторной работы No 5", IDM_Task_1
+MENUITEM "&Задание для лабораторной работы No 6", IDM_Task_2
+}
+POPUP "&Решения"
+{
+MENUITEM "&Решение для лабораторной работы No 5", IDM_Solve_1
+MENUITEM "&Решение для лабораторной работы No 6", IDM_Solve_2
+}
+MENUITEM "&Помощь", IDM_HELP
+MENUITEM "&Выход", IDM_EXIT
+}
